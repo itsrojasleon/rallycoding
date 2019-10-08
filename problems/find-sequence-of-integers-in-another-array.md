@@ -1,10 +1,13 @@
 <div align="center">
   <h1>Find Sequence of integers in another array</h1>
+  <a href="https://prep-app-prod.herokuapp.com/problems/261" target="_blank">261</a>
 </div>
 
 ### Instructions
 
-You are given an array of integers and a shorter array containing a sequence of integers as arguments. Return true if the sequence of integers can be found in the first array.
+You are given an array of integers and a shorter array containing a sequence of
+integers as arguments. Return true if the sequence of integers can be found in
+the first array.
 
 ### Requirements
 
@@ -33,12 +36,11 @@ solve([1, 3, 5, 7], [3, 5])
 > true
 ```
 
-
 ### Solution
 
 ```javascript
 const solve = (intArray, sequence) => {
-  return intArray.toString().includes(sequence.toString())
+  return intArray.toString().includes(sequence.toString());
 };
 
 solve([1, 3, 5, 7], [3, 5]);
