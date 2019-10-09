@@ -23,7 +23,7 @@ solve([1,2,3,4,5)
 
 ```javascript
 const solve = intArray => {
-  /let result = [];
+  let result = [];
 
   for (let i = intArray.length - 1; i >= 0; i--) {
     result.push(intArray[i]);
